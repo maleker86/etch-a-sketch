@@ -3,13 +3,15 @@ body {
 }
 
 #container {
+    display:flex;
+    flex-wrap: wrap;
     width: 70vw;
     height: auto;
     margin: auto;
 }
 
-#pixel {
+/* .pixel {
     height: 10px;
     width: 10px;
     border: 1px solid black;
-}
+} */
