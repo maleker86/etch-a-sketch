@@ -1,5 +1,5 @@
 const container = document.getElementById("container");
-let gridNumber = 32;
+let gridNumber = 24;
 
 container.style.width = (gridNumber * 10) + "px";
 
@@ -14,9 +14,6 @@ for (i = 0; i < gridNumber * gridNumber; i++) {
   container.append(pixel);
 //  console.log(i);
 }
-
-//get pixels to alter class, but testing it first.
-//let pixels = document.getElementsByClassName("empty");
 
 //pixels.addEventListener("mouseover", myTest);
 
