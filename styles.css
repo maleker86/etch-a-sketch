@@ -1,6 +1,4 @@
 body {
-    display:flex;
-    flex-direction:column;
     font-family: sans-serif;
     text-align: center;
 }
@@ -12,9 +10,6 @@ body {
     max-width: 400px;
     margin: auto;
     background-color:lightblue;
-}
-
-div {
 }
 
 .empty {
